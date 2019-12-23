@@ -7,7 +7,7 @@ Reliable way how to avoid Geo restrictions is to use VPN. Thou this is has sever
 - [All traffic is going through VPN](#All-traffic-is-going-through-VPN).
 
 ## How to?
-- Configure VPN through Ubiquity Edge Router
+- [Configure VPN through Ubiquity Edge Router](#Configure-VPN-through-Ubiquity-Edge-Router)
 
 ## Domains for Popular services
 This section contains domains which needs to be on the allowlist in order to bypass geo check for these services.
