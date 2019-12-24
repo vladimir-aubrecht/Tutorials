@@ -27,7 +27,7 @@ This section contains domains which needs to be on the allowlist in order to byp
 ## IP of VPN Server is blocked
 A lot of services are using banlist of IP ranges to be protected against VPN servers. This solution is pretty effective.
 
-My experience is, that all (I tried Azure and Amazon) IP from cloud providers are always banned. Only chance to get through it is to either use some unknown hosting or buy commercial VPN service which has a lot of servers (a lot of them will still be blocked).
+My experience is, that all (I tried Azure, Amazon and Linode) IP from cloud providers are always banned. Only chance to get through it is to either use some unknown hosting or buy commercial VPN service which has a lot of servers (a lot of them will still be blocked).
 
 Solution with commercial VPN service is usually cheaper, but chance that IP you are using there will be blocked is higher (after what you will need to switch to new VPN server, which is usually available as VPN service providers are always adding new servers into pool ...).
 
