@@ -24,6 +24,9 @@ This section contains domains which needs to be on the allowlist in order to byp
 - hbo.com
 - hbonow.com
 
+### Showtime
+- showtime.com
+
 ## IP of VPN Server is blocked
 A lot of services are using banlist of IP ranges to be protected against VPN servers. This solution is pretty effective.
 
