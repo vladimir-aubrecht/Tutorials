@@ -197,4 +197,6 @@ save
 exit
 ```
 
+Note that configuration of domains which are redirected through VPN can be also done through iOS application [RouterWizzard](https://github.com/vladimir-aubrecht/RouterWizzard). It was written based on this tutorial as I was lazy to do these steps manually all the time.
+
 Changes will take effect immediately.
