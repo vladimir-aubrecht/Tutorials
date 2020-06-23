@@ -28,4 +28,4 @@ Do you want to **sort tables** below? Check [this](https://stackoverflow.com/que
 [TaurusK320]: Images/TKL/TaurusK320.png
 [Majestouch2]: Images/TKL/Majestouch2.jpg
 [VA87M]: Images/TKL/VA87M.jpg
-[KeychronK8]: Images/TKL/KeychronK8.jpg
+[KeychronK8]: Images/TKL/KeychronK8.jpeg
