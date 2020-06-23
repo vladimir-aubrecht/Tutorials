@@ -7,16 +7,16 @@ Do you want to **sort tables** below? Check [this](https://stackoverflow.com/que
 # TKL keyboards
 
 ## Wireless
-|Photo                       |Name                                                |Switches                                                                                                                     |Connectivity|Backlit|Layout|NKRO|
-|:--------------------------:|:--------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:----------:|:-----:|:----:|:--:|
-|![Majestouch 2][Majestouch2]|[Majestouch 2][Majestouch2Web]|Cherry <br/>![Blue][BlueSwitch] ![Black][BlackSwitch] ![Red][RedSwitch] ![Brown][BrownSwitch] ![Silver][SilverSwitch] ![SilentRed][SilentRedSwitch]|USB, Bluetooth 3.0|No|ANSI|Yes|
-|![VA87M][VA87M]|[VA87M][VA87MWeb]|Cherry <br/>![Blue][BlueSwitch] ![Black][BlackSwitch] ![Red][RedSwitch] ![Brown][BrownSwitch] ![Silver][SilverSwitch] ![SilentRed][SilentRedSwitch] ![SpeedSilver][SpeedSilverSwitch] ![SilentBlack][SilentBlackSwitch] ![Clear][ClearSwitch]|USB, Bluetooth 4.0|White|ANSI, ISO|Yes|
+| Photo                        | Name                           | Switches                                                                                   | Connectivity       | Backlit | Layout    | NKRO |
+| :--------------------------: | :----------------------------: | :-----------------------------------------------------------------------------------------:| :----------------: | :-----: | :-------: | :--: |
+| ![Majestouch 2][Majestouch2] | [Majestouch 2][Majestouch2Web] | Cherry <br/>Blue, Black, Red, Brown, Silver, Silent, Red                                   | USB, Bluetooth 3.0 | No      | ANSI      | Yes  |
+| ![VA87M][VA87M]              | [VA87M][VA87MWeb]              | Cherry <br/>Blue, Black, Red, Brown, Silver, Silent Red, Speed Silver, Silent Black, Clear | USB, Bluetooth 4.0 | White   | ANSI, ISO | Yes  |
 
 
 ## Wired
-| Photo                      | Name                        | Switches                                                                                                              | Connectivity | Backlit | Layout | NKRO |
-| :------------------------: | :--------------------------:| :-------------------------------------------------------------------------------------------------------------------: | :----------: | :-----: | :----: | :--: |
-| ![Taurus K320][TaurusK320] | [Taurus K320][TaurusK320Web]| Cherry <br/>![Blue][BlueSwitch] ![Black][BlackSwitch] ![Red][RedSwitch] ![Brown][BrownSwitch] ![Silver][SilverSwitch] | USB-C        | No      | ANSI   | Yes  |
+| Photo                      | Name                         | Switches                                    | Connectivity | Backlit | Layout | NKRO |
+| :------------------------: | :--------------------------: | :-----------------------------------------: | :----------: | :-----: | :----: | :--: |
+| ![Taurus K320][TaurusK320] | [Taurus K320][TaurusK320Web] | Cherry <br/>Blue, Black, Red, Brown, Silver | USB-C        | No      | ANSI   | Yes  |
 
 
 [TaurusK320Web]: https://www.durgod.com/page9?_l=en&product_id=47
@@ -26,13 +26,3 @@ Do you want to **sort tables** below? Check [this](https://stackoverflow.com/que
 [TaurusK320]: Images/TKL/TaurusK320.png
 [Majestouch2]: Images/TKL/Majestouch2.jpg
 [VA87M]: Images/TKL/VA87M.jpg
-
-[RedSwitch]: https://via.placeholder.com/15/ff0000/000000?text=Red
-[BlueSwitch]: https://via.placeholder.com/15/0000ff/000000?text=Blue
-[BlackSwitch]: https://via.placeholder.com/15/000000/000000?text=Black
-[SilverSwitch]: https://via.placeholder.com/15/c0c0c0/000000?text=Silver
-[BrownSwitch]: https://via.placeholder.com/15/a52a2a/000000?text=Brown
-[SpeedSilverSwitch]: https://via.placeholder.com/15/a0a0a0/000000?text=Speed%20Silver
-[SilentRedSwitch]: https://via.placeholder.com/15/EE0000/000000?text=Silent%20Red
-[SilentBlackSwitch]: https://via.placeholder.com/15/444444/000000?text=Silent%20Black
-[ClearSwitch]: https://via.placeholder.com/15/eeeeee/000000?text=Clear
