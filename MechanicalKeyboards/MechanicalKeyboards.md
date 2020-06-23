@@ -15,17 +15,21 @@ Do you want to **sort tables** below? Check [this](https://stackoverflow.com/que
 
 
 ## Wired
-| Photo                      | Name                         | Hot swap | Switches  | Connectivity | Backlit | Layout | NKRO |
-| :------------------------: | :--------------------------: | :------: | :-------: | :----------: | :-----: | :----: | :--: |
-| ![Taurus K320][TaurusK320] | [Taurus K320][TaurusK320Web] | No       | Cherry MX | USB-C        | No      | ANSI   | Yes  |
+| Photo                      | Name                         | Hot swap | Switches  | Connectivity | Backlit | Layout    | NKRO |
+| :------------------------: | :--------------------------: | :------: | :-------: | :----------: | :-----: | :-------: | :--: |
+| ![Taurus K320][TaurusK320] | [Taurus K320][TaurusK320Web] | No       | Cherry MX | USB-C        | No      | ANSI      | Yes  |
+| ![Ducky One 2][DuckyOne2]  | [Ducky One 2][DuckyOne2Web]  | No       | Cherry MX | USB-C        | White   | ANSI, ISO | Yes  |
+
 
 
 [TaurusK320Web]: https://www.durgod.com/page9?_l=en&product_id=47
 [Majestouch2Web]: https://www.diatec.co.jp/en/det.php?prod_c=2643
 [VA87MWeb]: https://en.varmilo.com/keyboardproscenium/
 [KeychronK8Web]: https://www.keychron.com/pages/keychron-k8-wireless-mechanical-keyboard
+[DuckyOne2Web]: https://www.duckychannel.com.tw/en/Ducky-One2-White-LED-TKL
 
 [TaurusK320]: Images/TKL/TaurusK320.png
 [Majestouch2]: Images/TKL/Majestouch2.jpg
 [VA87M]: Images/TKL/VA87M.jpg
 [KeychronK8]: Images/TKL/KeychronK8.jpeg
+[DuckyOne2]: Images/TKL/DuckyOne2.png
