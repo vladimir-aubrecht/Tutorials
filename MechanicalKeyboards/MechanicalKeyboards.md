@@ -35,7 +35,7 @@ Do you want to **sort tables** below? Check [this](https://stackoverflow.com/que
 ## Wired
 | Photo | Name                                                                                 | Switches                               | Connectivity | Backlit | Layout |
 | ----- | ------------------------------------------------------------------------------------ | -------------------------------------- | ------------ | ------- | ------ |
-| ![Taurus K320][TaurusK320] | [Taurus K320](https://www.durgod.com/page9?_l=en&product_id=47) | Cherry <span class="blueSwitch">Blue</span>, <span class="blackSwitch">Black</span>, <span class="redSwitch">Red</span>, <span class="brownSwitch">Brown</span>, <span class="silverSwitch">Silver</span> | USB-C        | No      | ANSI   |
+| ![Taurus K320][TaurusK320] | [Taurus K320](https://www.durgod.com/page9?_l=en&product_id=47) | Cherry ![#0000ff](https://via.placeholder.com/15/0000ff/000000?text=+) `Blue`, <span class="blackSwitch">Black</span>, <span class="redSwitch">Red</span>, <span class="brownSwitch">Brown</span>, <span class="silverSwitch">Silver</span> | USB-C        | No      | ANSI   |
 
 
 [TaurusK320]: Images/TKL/TaurusK320.png
