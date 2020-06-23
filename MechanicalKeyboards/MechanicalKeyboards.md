@@ -21,6 +21,7 @@ Do you want to **sort tables** below? Check [this](https://stackoverflow.com/que
 | ![Ducky One 2][DuckyOne2]        | [Ducky One 2][DuckyOne2Web]        | No       | Cherry MX | USB-C        | White   | ANSI, ISO | NK  |
 | ![Leopold Fc750r][LeopoldFc750r] | [Leopold Fc750r][LeopoldFc750rWeb] | No       | Cherry MX | USB          | No      | ANSI      | 6K  |
 | ![WASD V3][WASDV3]               | [WASD V3][WASDV3Web]               | No       | Cherry MX | USB          | No      | ANSI, ISO | NK  |
+| ![IKBC][IKBCF87]                 | [IKBCF87][IKBCF87Web]              | No       | Cherry MX | USB          | RGB     | ANSI, ISO | NK  |
 
 
 
@@ -32,6 +33,7 @@ Do you want to **sort tables** below? Check [this](https://stackoverflow.com/que
 [DuckyOne2Web]: https://www.duckychannel.com.tw/en/Ducky-One2-White-LED-TKL
 [LeopoldFc750rWeb]: https://www.harum.io/products/leopold-fc750r-pd-gray-blue?variant=17281372192819
 [WASDV3Web]: https://www.wasdkeyboards.com/wasd-v3-87-key-doubleshot-abs-gmk-penumbra-mechanical-keyboard.html
+[IKBCF87Web]: http://www.ikbc.com.tw/f87
 
 [TaurusK320]: Images/TKL/TaurusK320.png
 [Majestouch2]: Images/TKL/Majestouch2.jpg
@@ -40,3 +42,4 @@ Do you want to **sort tables** below? Check [this](https://stackoverflow.com/que
 [DuckyOne2]: Images/TKL/DuckyOne2.png
 [LeopoldFc750r]: Images/TKL/LeopoldFc750r.png
 [WASDV3]: Images/TKL/WASDV3.jpg
+[IKBCF87]: Images/TKL/IKBCF87.jpg
