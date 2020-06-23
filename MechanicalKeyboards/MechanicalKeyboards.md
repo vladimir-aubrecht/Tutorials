@@ -27,12 +27,12 @@ Do you want to **sort tables** below? Check [this](https://stackoverflow.com/que
 [Majestouch2]: Images/TKL/Majestouch2.jpg
 [VA87M]: Images/TKL/VA87M.jpg
 
-[RedSwitch]: https://via.placeholder.com/15/ff0000/000000?text=+
-[BlueSwitch]: https://via.placeholder.com/15/0000ff/000000?text=+
-[BlackSwitch]: https://via.placeholder.com/15/000000/000000?text=+
-[SilverSwitch]: https://via.placeholder.com/15/c0c0c0/000000?text=+
-[BrownSwitch]: https://via.placeholder.com/15/a52a2a/000000?text=+
-[SpeedSilverSwitch]: https://via.placeholder.com/15/a0a0a0/000000?text=+
-[SilentRedSwitch]: https://via.placeholder.com/15/EE0000/000000?text=+
-[SilentBlackSwitch]: https://via.placeholder.com/15/444444/000000?text=+
-[ClearSwitch]: https://via.placeholder.com/15/eeeeee/000000?text=+
+[RedSwitch]: https://via.placeholder.com/15/ff0000/000000?text=Red
+[BlueSwitch]: https://via.placeholder.com/15/0000ff/000000?text=Blue
+[BlackSwitch]: https://via.placeholder.com/15/000000/000000?text=Black
+[SilverSwitch]: https://via.placeholder.com/15/c0c0c0/000000?text=Silver
+[BrownSwitch]: https://via.placeholder.com/15/a52a2a/000000?text=Brown
+[SpeedSilverSwitch]: https://via.placeholder.com/15/a0a0a0/000000?text=Speed%20Silver
+[SilentRedSwitch]: https://via.placeholder.com/15/EE0000/000000?text=Silent%20Red
+[SilentBlackSwitch]: https://via.placeholder.com/15/444444/000000?text=Silent%20Black
+[ClearSwitch]: https://via.placeholder.com/15/eeeeee/000000?text=Clear
