@@ -7,21 +7,21 @@ Do you want to **sort tables** below? Check [this](https://stackoverflow.com/que
 # TKL keyboards
 
 ## Wireless
-| Photo                        | Name                           | Hot swap | Switches                                                                     | Connectivity         | Backlit | Layout    | KRO |
-| :--------------------------: | :----------------------------: | :------: | :---------------------------------------------------------------------------:| :------------------: | :-----: | :-------: | :-: |
-| ![Majestouch 2][Majestouch2] | [Majestouch 2][Majestouch2Web] | No       | Cherry MX                                                                    | USB, Bluetooth 3.0   | No      | ANSI, ISO | NK  |
-| ![Keychron K8][KeychronK8]   | [Keychron K8][KeychronK8Web]   | Yes      | Gateron Mechanical, Keychron Optical, Compatible with most MX Style switches | USB-C, Bluetooth 5.1 | RGB     | ANSI      | NK  |
-| ![VB87M][VB87M]              | [VB87M][VB87MWeb]              | No       | Cherry MX, Kailh BOX, Zealios                                                | USB, Bluetooth 4.0   | White   | ANSI, ISO | NK  |
+| Photo                        | Name                           | Hot swap | Switches                                                                     | Connectivity         | Backlit              | Layout    | KRO |
+| :--------------------------: | :----------------------------: | :------: | :---------------------------------------------------------------------------:| :------------------: | :------------------: | :-------: | :-: |
+| ![Majestouch 2][Majestouch2] | [Majestouch 2][Majestouch2Web] | No       | Cherry MX                                                                    | USB, Bluetooth 3.0   | No                   | ANSI, ISO | NK  |
+| ![Keychron K8][KeychronK8]   | [Keychron K8][KeychronK8Web]   | Yes      | Gateron Mechanical, Keychron Optical, Compatible with most MX Style switches | USB-C, Bluetooth 5.1 | RGB                  | ANSI      | NK  |
+| ![VB87M][VB87M]              | [VB87M][VB87MWeb]              | No       | Cherry MX, Kailh BOX, Zealios                                                | USB, Bluetooth 4.0   | White or Red or Blue | ANSI, ISO | NK  |
 
 ## Wired
-| Photo                            | Name                               | Hot swap | Switches  | Connectivity      | Backlit | Layout    | KRO |
-| :------------------------------: | :--------------------------------: | :------: | :-------: | :---------------: | :-----: | :-------: | :-: |
-| ![Taurus K320][TaurusK320]       | [Taurus K320][TaurusK320Web]       | No       | Cherry MX | USB-C             | No      | ANSI      | NK  |
-| ![Ducky One 2][DuckyOne2]        | [Ducky One 2][DuckyOne2Web]        | No       | Cherry MX | USB-C             | White   | ANSI, ISO | NK  |
-| ![Leopold Fc750r][LeopoldFc750r] | [Leopold Fc750r][LeopoldFc750rWeb] | No       | Cherry MX | USB               | No      | ANSI      | 6K  |
-| ![WASD V3][WASDV3]               | [WASD V3][WASDV3Web]               | No       | Cherry MX | USB               | No      | ANSI, ISO | NK  |
-| ![IKBC][IKBCF87]                 | [IKBCF87][IKBCF87Web]              | No       | Cherry MX | USB               | RGB     | ANSI, ISO | NK  |
-| ![VA87M][VA87M]                  | [VA87M][VA87MWeb]                  | No       | Cherry MX, Kailh BOX, Zealios | USB | White   | ANSI, ISO | NK  |
+| Photo                            | Name                               | Hot swap | Switches  | Connectivity      | Backlit | Layout               | KRO |
+| :------------------------------: | :--------------------------------: | :------: | :-------: | :---------------: | :-----: | :------------------: | :-: |
+| ![Taurus K320][TaurusK320]       | [Taurus K320][TaurusK320Web]       | No       | Cherry MX | USB-C             | No      | ANSI                 | NK  |
+| ![Ducky One 2][DuckyOne2]        | [Ducky One 2][DuckyOne2Web]        | No       | Cherry MX | USB-C             | White   | ANSI, ISO            | NK  |
+| ![Leopold Fc750r][LeopoldFc750r] | [Leopold Fc750r][LeopoldFc750rWeb] | No       | Cherry MX | USB               | No      | ANSI                 | 6K  |
+| ![WASD V3][WASDV3]               | [WASD V3][WASDV3Web]               | No       | Cherry MX | USB               | No      | ANSI, ISO            | NK  |
+| ![IKBC][IKBCF87]                 | [IKBCF87][IKBCF87Web]              | No       | Cherry MX | USB               | RGB     | ANSI, ISO            | NK  |
+| ![VA87M][VA87M]                  | [VA87M][VA87MWeb]                  | No       | Cherry MX, Kailh BOX, Zealios | USB     | White or Red or Blue | ANSI, ISO | NK  |
 
 
 
