@@ -5,7 +5,7 @@
 # Features
 # Track active item
 - Description: Solution explorer has always selected currently edited file.
-![Track active item](Images/TrackActiveItem.png)
+<img src="Images/TrackActiveItem.png" width="600" title="Track active item">
 
 # Special Paste
 - Description: Generates model classes based on JSON string in clipboard.
