@@ -5,26 +5,26 @@
 # Features
 # Track active item
 - Description: Solution explorer has always selected currently edited file.
-<img src="Images/TrackActiveItem.png" width="600" title="Track active item">
+<img src="Images/TrackActiveItem.png" width="600" title="Track active item" />
 
 # Special Paste
 - Description: Generates model classes based on JSON string in clipboard.
-![Special paste](Images/SpecialPaste.jpg)
+<img src="Images/SpecialPaste.jpg" width="600" title="Special paste" />
 
 # Source decompilation
 - Description: Enable automatic decompilation of 3rd party libraries.
-![Source decompilation](Images/Decompilation.png)
+<img src="Images/Decompilation.png" width="600" title="Source decompilation" />
 
 # Remove and sort usings
 - Description: [MS Productivity Power Tools](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017) extension allows to automatically remove and sort usings on save.
-![Remove and sort usings](Images/RemoveOnSave.png)
+<img src="Images/RemoveOnSave.png" width="600" title="Remove and sort usings" />
 
 # Remove trailing whitespaces
 - Descritpion: [Trailing Whitespace Visualizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer) extension allows to automatically remove trailing whitespaces on save.
-![Remove trailing whitespaces](Images/RemoveTrailingWhitespacesOnSave.png)
+<img src="Images/RemoveTrailingWhitespacesOnSave.png" width="600" title="Remove trailing whitespaces" />
 
 # Shortcuts
 ## Copy/Paste history
 - Description: Triggers context menu allowing paste from clipboard history.
 - Shortcut: Ctrl+Shift+V
-![Copy/Paste](Images/CopyPaste.png)
+<img src="Images/CopyPaste.png" width="600" title="Copy/Paste" />
