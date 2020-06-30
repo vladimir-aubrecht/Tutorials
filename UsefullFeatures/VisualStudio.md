@@ -23,6 +23,10 @@
 - Descritpion: [Trailing Whitespace Visualizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer) extension allows to automatically remove trailing whitespaces on save.
 <img src="Images/RemoveTrailingWhitespacesOnSave.png" width="600" title="Remove trailing whitespaces" />
 
+# Enforce and fix Configure Await
+- Description: [ConfigureAwaitEnforcer](https://marketplace.visualstudio.com/items?itemName=Rene-Stein.ConfigureAwaitEnforcer) extension allows to explicitly add ConfigureAwait(true | false) to every await call in a solution.
+<img src="Images/ConfigureAwaitEnforcer.gif" width="600" title="Configure Await Enforcer" />
+
 # Shortcuts
 ## Copy/Paste history
 - Description: Triggers context menu allowing paste from clipboard history.
