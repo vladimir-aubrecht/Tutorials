@@ -12,20 +12,65 @@ Reliable way how to avoid Geo restrictions is to use VPN. Thou this is has sever
 ## Domains for Popular services
 This section contains domains which needs to be on the allowlist in order to bypass geo check for these services.
 
+### Shared domains (I need to categorize these, currently needed for everything)
+- appboy.com
+- awsglobalaccelerator.com
+- akamaiedge.net
+- akamai.net
+- brightline.tv
+- aaplimg.com
+- imgix.net
+- c.evidon.com
+
 ### Disney+
 - bamgrid.com
 - registerdisney.go.com
 - disney-plus.net
 - dssott.com
 - disneyplus.com
+- conviva.com
+- braze.com
 
-### HBO Now
-- hbogo.com
+### HBO Max
+- hbomax.com
+- hbo.com.edgekey.net
 - hbo.com
-- hbonow.com
+- braze.com
+
+### Hulu
+- hulu.com
+- hulustream.com
+- newrelic.com
+- conviva.com
+- appsflyer.com
+- cdn-gl.imrworldwide.com
+- tealiumiq.com
+- tags.tiqcdn.com
+- huu.com
+- demdex.net
+- bam-cell.nr-data.net
+- www.recaptcha.net
+- z.moatads.com
+- cast.google.com (add?)
+
+### Netflix
+- netflix.com
 
 ### Showtime
 - showtime.com
+
+### TubiTV
+- tubitv.com
+- tubi.tv
+
+### Peacock TV
+- peacocktv.com
+
+### Starz
+- starz.com
+
+### DC Universe
+- dcuniverse.com
 
 ## IP of VPN Server is blocked
 A lot of services are using banlist of IP ranges to be protected against VPN servers. This solution is pretty effective.
@@ -35,8 +80,6 @@ My experience is, that all (I tried Azure, Amazon and Linode) IP from cloud prov
 Solution with commercial VPN service is usually cheaper, but chance that IP you are using there will be blocked is higher (after what you will need to switch to new VPN server, which is usually available as VPN service providers are always adding new servers into pool ...).
 
 One thing which I noticed, I was never able to bypass Geo check L2TP VPN server. Don't know why yet, but it simply didn't work (I checked that I have correct IP visible from public internet). I was more successful with OpenVPN.
-
-I believe that there could be better ways with IPv6, but unfortunately that one is often not supported by the services with Geo restrictions (for example Disney+).
 
 ## Device does not allow to configure VPN
 Some devices (Apple TV) does not allow to configure VPN. This is problematic when you want to bypass Geo restrictions, but solvable.
@@ -96,7 +139,6 @@ set interfaces openvpn vtun0 description 'VPN'
 commit
 save
 exit
-reboot
 ```
 
 After these steps you should see in the web interface connected VPN interface.
@@ -138,7 +180,7 @@ delete protocols static table
 
 3. Create table for routing to your ISP (replace ``<IP_of_ISP_gateway>``).
 ```
-set protocols static table 1 interface-route 0.0.0.0/0 next-hop <IP_of_ISP_gateway>
+set protocols static table 1 route 0.0.0.0/0 next-hop <IP_of_ISP_gateway>
 ```
 
 3. Create table for routing to VPN.
@@ -146,12 +188,20 @@ set protocols static table 1 interface-route 0.0.0.0/0 next-hop <IP_of_ISP_gatew
 set protocols static table 2 interface-route 0.0.0.0/0 next-hop-interface vtun0
 ```
 
-4. Configure domains which will be redirected (replace ``<domains>`` by list of domains separated by slash (``/``).
+4. Configure domains which will be redirected (replace ``<domains>`` by list of domains separated by slash (``/``). Specify US DNS server IP address.
+
 ```
 set service dns forwarding options ipset=/<domains>/VpnTraffic
+set service dns forwarding options server=/<domains>/<US DNS Server IP>
 ```
 
-5. Configure firewall to redirect every request which is going to configured domain to go through VPN. (replace ``<ethernet_port>`` with ethernet port which is connected to your local network).
+5. Configure routing of queries aiming for US DNS Server IP to go through VPN
+
+```
+set protocols route <US DNS server IP>/32 next-hop <VPN Gateway IP> distance 1
+```
+
+6. Configure firewall to redirect every request which is going to configured domain to go through VPN. (replace ``<ethernet_port>`` with ethernet port which is connected to your local network).
 
 ```
 set firewall group address-group VpnTraffic
@@ -162,7 +212,15 @@ set firewall modify VpnRule rule 5 modify table 2
 set interfaces ethernet <ethernet_port> firewall in modify VpnRule
 ```
 
-6. Commit and save changes.
+7. Configure firewall to redirect every other request through standard gateway
+
+```
+set firewall modify VpnRule rule 20 action modify
+set firewall modify VpnRule rule 20 description "Rest of network"
+set firewall modify VpnRule rule 20 modify table 1
+```
+
+8. Commit and save changes.
 ```
 commit
 save
