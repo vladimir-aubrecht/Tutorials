@@ -1,0 +1,87 @@
+[
+    {
+        "ServiceName": "Disney+",
+        "IconUrl": "https://media.githubusercontent.com/media/vladimir-aubrecht/Tutorials/master/GeoBypass/Icons/DisneyPlus.png",
+        "Domains": [
+            "bamgrid.com",
+            "registerdisney.go.com",
+            "disney-plus.net",
+            "dssott.com",
+            "disneyplus.com",
+            "conviva.com",
+            "braze.com"
+        ]
+    },
+    {
+        "ServiceName": "HBO Max",
+        "IconUrl": "https://media.githubusercontent.com/media/vladimir-aubrecht/Tutorials/master/GeoBypass/Icons/HboMax.jpg",
+        "Domains": [
+            "hbomax.com",
+            "hbo.com.edgekey.net",
+            "hbo.com",
+            "braze.com"
+        ]
+    },
+    {
+        "ServiceName": "Hulu",
+        "IconUrl": "https://media.githubusercontent.com/media/vladimir-aubrecht/Tutorials/master/GeoBypass/Icons/Hulu.png",
+        "Domains": [
+            "hulu.com",
+            "hulustream.com",
+            "newrelic.com",
+            "conviva.com",
+            "appsflyer.com",
+            "cdn-gl.imrworldwide.com",
+            "tealiumiq.com",
+            "tags.tiqcdn.com",
+            "huu.com",
+            "demdex.net",
+            "bam-cell.nr-data.net",
+            "www.recaptcha.net",
+            "z.moatads.com"
+        ]
+    },
+    {
+        "ServiceName": "Netflix",
+        "IconUrl": "https://media.githubusercontent.com/media/vladimir-aubrecht/Tutorials/master/GeoBypass/Icons/Netflix.jpeg",
+        "Domains":[
+            "netflix.com"
+        ]
+    },
+    {
+        "ServiceName": "Showtime",
+        "IconUrl": "https://media.githubusercontent.com/media/vladimir-aubrecht/Tutorials/master/GeoBypass/Icons/Showtime.png",
+        "Domains":[
+            "showtime.com"
+        ]
+    },
+    {
+        "ServiceName": "TubiTV",
+        "IconUrl": "https://media.githubusercontent.com/media/vladimir-aubrecht/Tutorials/master/GeoBypass/Icons/TubiTV.png",
+        "Domains":[
+            "tubitv.com",
+            "tubi.tv"
+        ]
+    },
+    {
+        "ServiceName": "Peacock TV",
+        "IconUrl": "https://media.githubusercontent.com/media/vladimir-aubrecht/Tutorials/master/GeoBypass/Icons/PeacockTV.jpg",
+        "Domains":[
+            "peacocktv.com"
+        ]
+    },
+    {
+        "ServiceName": "Starz",
+        "IconUrl": "https://media.githubusercontent.com/media/vladimir-aubrecht/Tutorials/master/GeoBypass/Icons/Starz.jpg",
+        "Domains":[
+            "starz.com"
+        ]
+    },
+    {
+        "ServiceName": "DC Universe",
+        "IconUrl": "https://media.githubusercontent.com/media/vladimir-aubrecht/Tutorials/master/GeoBypass/Icons/DCUniverse.jpeg",
+        "Domains":[
+            "dcuniverse.com"
+        ]
+    }
+]
