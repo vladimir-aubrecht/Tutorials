@@ -198,7 +198,7 @@ set service dns forwarding options server=/<domains>/<US DNS Server IP>
 5. Configure routing of queries aiming for US DNS Server IP to go through VPN
 
 ```
-set protocols route <US DNS server IP>/32 next-hop <VPN Gateway IP> distance 1
+set protocols static route <US DNS server IP>/32 next-hop <VPN Gateway IP> distance 1
 ```
 
 6. Configure firewall to redirect every request which is going to configured domain to go through VPN. (replace ``<ethernet_port>`` with ethernet port which is connected to your local network).
