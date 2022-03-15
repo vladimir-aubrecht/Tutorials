@@ -147,7 +147,6 @@ This cannot work for cross compiling scenario x64 -> arm64 as generated binary w
 
 First, build Httpd for [x64](./apache_build_x64_to_x64.md) (steps up to nmake, no need for nmake install).
 
-## Httpd
 ```bash
 cd /D C:\Development\Apache24\build\httpd
 

@@ -125,7 +125,6 @@ nmake install
 
 # Building Apache httpd
 
-## Httpd
 ```bash
 cd /D C:\Development\Apache24\src
 
