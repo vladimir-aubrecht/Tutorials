@@ -3,4 +3,4 @@
 - [Apple TV & Geo restrictions for Disney+ and HBO on Ubiquity router.](GeoBypass/README.md)
 - [SW Tips & Tricks](Software/README.md)
 - [Mechanical keyboards summary](MechanicalKeyboards/MechanicalKeyboards.md)
-- [How to build guides](Arm64/README.md)
+- [How to build guides](BuildGuides/README.md)
