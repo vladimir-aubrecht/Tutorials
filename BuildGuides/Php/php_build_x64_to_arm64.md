@@ -73,3 +73,39 @@ nmake
 ```
 
 Binaries are found in generated ``C:\Development\php\php-src\arm64`` folder.
+
+# With OpenSSL, Phar and Apache 2.4 handler
+
+Start by building OpenSSL and Apache Httpd by checking [this guide](./php_build_x64_to_arm64.md).
+
+Following steps are using same paths as guide on the link and assumes you prepared build and source codes of OpenSSL and Apache Httpd.
+
+
+```cmd
+
+cd /D C:\Development\php
+
+git clone --single-branch --branch arm64 https://github.com/dixyes/php-sdk-binary-tools
+
+git clone --single-branch --branch win_arm64 https://github.com/dixyes/php-src
+
+call php-sdk-binary-tools/phpsdk-starter.bat -c vc17 -a arm64
+
+cd /D C:\Development\php\php-src
+
+buildconf
+
+mkdir openssl
+
+copy C:\Development\Apache24\src\openssl\ms\applink.c C:\Development\php\php-src\openssl\applink.c
+
+configure --enable-cli --enable-apache2-4handler --with-extra-libs=C:\Apache24\lib --disable-opcache --with-openssl=C:\Development\Apache24\src\openssl --with-extra-includes=C:\Development\Apache24\src\openssl\include;C:\Apache24\include
+
+copy C:\Development\Apache24\src\openssl\libcrypto-1_1-arm64.dll C:\Development\php\php-src\arm64\Release_TS\libcrypto-1_1-arm64.dll
+
+copy C:\Development\Apache24\src\openssl\libssl-1_1-arm64.dll C:\Development\php\php-src\arm64\Release_TS\libssl-1_1-arm64.dll
+
+nmake
+
+
+```

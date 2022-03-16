@@ -183,3 +183,5 @@ nmake # should pass
 nmake install
 
 ```
+
+Binaries are found in generated ``C:\Apache24`` folder.
