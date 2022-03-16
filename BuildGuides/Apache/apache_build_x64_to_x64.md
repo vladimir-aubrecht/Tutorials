@@ -9,7 +9,7 @@ Page describes all necessary steps to build Apache httpd. Original source was [t
 - [Netwide Assembler (NASM)](https://www.nasm.us/)
 - Folder structure
 
-```bash
+```cmd
 C:\Development
    └ Apache24
       ├ src
@@ -32,12 +32,12 @@ C:\Development
 Clone all repositories into **src** folder.
 
 For all builds use terminal opened by comamnd below (it has necessary environment variables set).
-```bash
+```cmd
 %comspec% /k "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
 ```
 
 ## PCRE
-```bash
+```cmd
 cd /D C:\Development\Apache24\src
 
 git clone https://github.com/asmlib/pcre-8.36
@@ -52,7 +52,7 @@ nmake install
 ```
 
 ## OpenSSL
-```bash
+```cmd
 cd /D C:\Development\Apache24\src
 
 git clone https://github.com/openssl/openssl
@@ -71,7 +71,7 @@ Comments:
 - no-asm - for some reason perl couldn't find nasm which I had in my PATH. Impact of no-asm is 4x lower performance in certain scenarios.
 
 ## Libexpat
-```bash
+```cmd
 cd /D C:\Development\Apache24\src
 
 git clone https://github.com/libexpat/libexpat
@@ -89,7 +89,7 @@ nmake install
 ```
 
 ## Apr
-```bash
+```cmd
 cd /D C:\Development\Apache24\src
 
 git clone https://github.com/apache/apr
@@ -106,7 +106,7 @@ nmake install
 ```
 
 ## Apr-Util
-```bash
+```cmd
 cd /D C:\Development\Apache24\src
 
 git clone https://github.com/apache/apr-util
@@ -125,7 +125,7 @@ nmake install
 
 # Building Apache httpd
 
-```bash
+```cmd
 cd /D C:\Development\Apache24\src
 
 git clone https://github.com/apache/httpd

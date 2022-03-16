@@ -9,7 +9,7 @@ Page describes all necessary steps to build Apache httpd. Original source was [t
 - [Netwide Assembler (NASM)](https://www.nasm.us/)
 - Folder structure
 
-```bash
+```cmd
 C:\Development
    └ Apache24
       ├ src
@@ -32,14 +32,14 @@ C:\Development
 Clone all repositories into **src** folder.
 
 For all builds use terminal opened by comamnd below (it has necessary environment variables set).
-```bash
+```cmd
 %comspec% /k "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat x64_arm64"
 ```
 
 x64_arm64
 
 ## PCRE
-```bash
+```cmd
 cd /D C:\Development\Apache24\src
 
 git clone https://github.com/asmlib/pcre-8.36
@@ -54,7 +54,7 @@ nmake install
 ```
 
 ## OpenSSL
-```bash
+```cmd
 cd /D C:\Development\Apache24\src
 
 git clone https://github.com/openssl/openssl
@@ -73,7 +73,7 @@ Comments:
 - no-asm - for some reason perl couldn't find nasm which I had in my PATH. Impact of no-asm is 4x lower performance in certain scenarios.
 
 ## Libexpat
-```bash
+```cmd
 cd /D C:\Development\Apache24\src
 
 git clone https://github.com/libexpat/libexpat
@@ -100,7 +100,7 @@ This cannot work for cross compiling scenario x64 -> arm64 as generated binary w
 
 First, build APR library for [x64](./apache_build_x64_to_x64.md) (steps up to nmake, no need for nmake install).
 
-```bash
+```cmd
 
 cd /D C:\Development\Apache24\build\apr
 
@@ -124,7 +124,7 @@ nmake install
 ```
 
 ## Apr-Util
-```bash
+```cmd
 cd /D C:\Development\Apache24\src
 
 git clone https://github.com/apache/apr-util
@@ -147,7 +147,7 @@ This cannot work for cross compiling scenario x64 -> arm64 as generated binary w
 
 First, build Httpd for [x64](./apache_build_x64_to_x64.md) (steps up to nmake, no need for nmake install).
 
-```bash
+```cmd
 cd /D C:\Development\Apache24\build\httpd
 
 move gen_test_char.exe gen_test_char_host.exe
