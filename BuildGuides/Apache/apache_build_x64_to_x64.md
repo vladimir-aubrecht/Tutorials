@@ -1,4 +1,4 @@
-# Build Apache httpd 2.4.52 (x64 -> x64, openssl 1.1.1m)
+# Build Apache httpd 2.4.52 (x64 -> x64, openssl 1.1.1m, VS2022/VC17)
 Page describes all necessary steps to build Apache httpd. Original source was [this page](https://www.apachelounge.com/viewtopic.php?t=6462), which is already out of date.
 
 # Software requirements
