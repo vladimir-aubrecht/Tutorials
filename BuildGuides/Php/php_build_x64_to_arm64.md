@@ -89,11 +89,11 @@ Enabled SAPI:
 # Preparing dependencies
 
 ```cmd
-cd /D C:\Development\dependencies
+cd /D C:\Development
 
 git clone https://github.com/vladimir-aubrecht/vcpkg
 
-cd /D C:\Development\dependencies\vcpkg
+cd /D C:\Development\vcpkg
 
 ./bootstrap-vcpkg
 
