@@ -6,13 +6,14 @@ This guide does not cover compilation of all typically used extensions neither i
 
 # Software requirements
 - [Visual Studio 2022](https://visualstudio.microsoft.com/vs/community/)
-- Python 2.7 (I'll assume location C:\Python27)
+- [Python 2.7](https://www.python.org/downloads/release/python-2718/) (I'll assume location C:\Python27)
 - [Vcpkg](https://github.com/vladimir-aubrecht/vcpkg) - It's necessary to use this repo for now as not all necessary ports are merged yet.
 - Folder structure
 
 ```cmd
 C:\Development
-   └ php
+   └ php-src
+   └ php-sdk-binary-tools
    └ dependencies
    └ vcpkg
    └ libxml2
@@ -94,8 +95,6 @@ git clone https://github.com/vladimir-aubrecht/vcpkg
 
 cd /D C:\Development\dependencies\vcpkg
 
-git checkout a76eb002a71b6cf7bad343f5e3376dfe6bb83c5c
-
 ./bootstrap-vcpkg
 
 ./vcpkg install openssl:arm64-windows-static
@@ -155,7 +154,7 @@ git checkout v2.9.9
 
 cd /D C:\Development\libxml2\win32
 
-cscript configure.js compiler=msvc prefix=C:\Development\dependencies include=C:\Development\dependencies\include lib=C:\Development\dependencies \lib zlib=yes
+cscript configure.js compiler=msvc prefix=C:\Development\dependencies include=C:\Development\dependencies\include lib=C:\Development\dependencies\lib zlib=yes
 
 nmake
 
