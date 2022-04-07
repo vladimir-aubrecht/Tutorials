@@ -127,7 +127,7 @@ copy zlib.lib zlib_a.lib && move zip.lib libzip_a.lib && move bz2.lib libbz2_a.l
 
 ```
 
-**WARNING**: Note libpq is installed as NON-static version. If you use static version, you'll be missing exports.
+**WARNING**: Note libpq and some other libraries are installed as NON-static version. If you use static version, you'll be missing exports.
 
 **NOTE**: Zlib.lib will be needed for building of libxml, but zlib_a.lib for building php itself.
 
